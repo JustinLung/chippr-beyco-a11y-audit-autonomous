@@ -43,15 +43,18 @@ https://beyco.nl/trade/offers/public
 **Naam beoordelaars**: Daan Korver, Justin Lung, Daphne Zwuup, Chaan Soekana, Finn van Bekkum, Armadno Jubitana
 
 ## Beoordelingsproces
-Het WCAG 2.1 niveau waarop getest is, is niveau AA. 
+
+Het WCAG 2.1 niveau waarop getest is, is niveau AA.
 
 **Tools gebruikt:**
+
 - Screenreader van Apple Macbook
 - Visual Studio Code
 - Google Chrome
 - Lighthouse
 
 **Beoordeling uitgevoerd:**
+
 - A11Y Project-Checklist
 - Lighthouse
 
@@ -131,14 +134,27 @@ Na het invoeren van een input veld, krijg je een error message te zien. Deze err
 #### Color contrast
 
 - **Check the contrast for all normal-sized text.**
-  De contrast ratio van een normnal sized text is 20.9:1.
+  De contrast ratio van een normnal sized text (zwarte #000000 op #FEFFFE ) is 20.9:1.
+  
   Het contrast is dus nu enhanced naar een AAA resultaat. Normal-sized text is dus goed leesbaar op de pagina.
+
 - **Check the contrast for all large-sized text.**
-  De contrast ratio van iconen zijn 19.6.1.
+  De contrast ratio van large sized text (zwarte #000000 op #FEFFFE ) zijn 20.6.1.
+  
   Het contrast is dus nu enhanced naar een AAA resultaat. large-sized text is dus goed leesbaar op de pagina.
+
 - **Check the contrast for all icons.**
-  De contrast ratio van een large sized text is 20.9:1.
-  Het contrast is dus nu enhanced naar een AAA resultaat. Iconen zijn dus goed zichtbaar op de pagina.
+  
+  Search Icon: grijs (#C6C8CA) op wit (#FEFFFE) heeft een contrast ratio van 1.7:1. Dit is dus niet goed zichtbaar.
+  
+  Dropdown icon: zwart (#000000) op wit (#FEFFFE) heeft een contrast ratio van 20.9:1. Dit is dus goed zichtbaar. 
+
+  Icon man: zwart (#000000) op grijs (#F5F7F9) heeft een contrast ratio van 19.6:1. Dit is dus goed zichtbaar.
+
+  Page identifier: grijs (#8B8C8B) op wit (#FEFFFE) heeft een contrast ratio van 3.4:1. Dit is dus niet goed zichtbaar.
+
+  Dropdown (port/export) icon: grijs (#CDCECD) op wit (#FEFFFE) heeft een contrast ratio van 1.6:1. Dit is dus niet goed zichtbaar. 
+
 - **Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.).**
   Text Input: Contrast ratio voor de inputs is een 1.3:1. Dit betekent dus dat de contrast niet helemaal lekker loopt.
   Radio Button (after click state): De contrast van de UI component is een 4.5:1. De contrast is dus hierbij goed.
@@ -169,7 +185,7 @@ Na het invoeren van een input veld, krijg je een error message te zien. Deze err
 Referenties welke gebruikt zijn bij de webtoegankelijkheid-test. Deze referenties zijn allen in het Engels:
 
 - https://www.a11yproject.com/checklist/
-- https://www.w3.org/TR/WCAG21/ 
+- https://www.w3.org/TR/WCAG21/
 
 ## Bijlagen
 
