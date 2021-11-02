@@ -54,7 +54,6 @@ Het WCAG 2.1 niveau waarop getest is, is niveau AA.
 **Beoordeling uitgevoerd:**
 - A11Y Project-Checklist
 - Lighthouse
-- 
 
 ## Testresultaten en aanbevelingen
 
@@ -66,6 +65,9 @@ De accessibility op desktop, heeft een score van 76. Dit kan echter nog verbeter
 - De contrast ratio van de pagina, is niet toegankelijk voor de website.
 
 Dezelfde bevindingen zijn op de mobiele telefoon te zien en heeft ook een accessibility score van 76.
+
+**Internet**
+Wij hebben de website ook op langzaam internet getest. Hierbij is het resultaat dat de website volledig geladen is binnen 29.06 seconden. Dit kan waarschijnlijk versneld worden door images verder te compressen en je kan de style verder minifien.
 
 ### Sterke punten
 
@@ -166,6 +168,9 @@ Na het invoeren van een input veld, krijg je een error message te zien. Deze err
 
 Referenties welke gebruikt zijn bij de webtoegankelijkheid-test. Deze referenties zijn allen in het Engels:
 
+- https://www.a11yproject.com/checklist/
+- https://www.w3.org/TR/WCAG21/ 
+
 ## Bijlagen
 
 **Lighthouse desktop**
@@ -175,6 +180,10 @@ Referenties welke gebruikt zijn bij de webtoegankelijkheid-test. Deze referentie
 **Lighthouse Mobile**
 
 ![lighthouse_mobile](https://media.discordapp.net/attachments/871761581590052925/904683362021679154/Screenshot_2021-11-01_at_11.48.36.png)
+
+**Internet slow 3G**
+
+![network_tab](https://media.discordapp.net/attachments/871761581590052925/905027420841734154/Screenshot_2021-11-02_at_09.39.41.png?width=1420&height=1137)
 
 ## Licentie
 
