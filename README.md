@@ -1,6 +1,6 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
 # Rapportage webtoegankelijkheid-test voor Beyco Coffee Page
+
+![Beyco Visual](https://media.discordapp.net/attachments/871761581590052925/905394941168078888/mockup_beyco.png?width=1428&height=1138)
 
 Dit document is een webtoegankelijkheid-test volgens de Web Content Accessibility Guidelines (WCAG). Een consistente rapportage helpt bij het uitvoeren van een evaluatie en zorgt er voor dat verschillende tests kunnen worden vergeleken.
 
