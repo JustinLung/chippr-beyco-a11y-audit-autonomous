@@ -5,12 +5,14 @@
 Dit document is een webtoegankelijkheid-test volgens de Web Content Accessibility Guidelines (WCAG). Een consistente rapportage helpt bij het uitvoeren van een evaluatie en zorgt er voor dat verschillende tests kunnen worden vergeleken.
 
 Datum webtoegankelijkheid-test:
-27 oktober 2021
-28 oktober 2021
-1 november 2021
-2 november 2021
+* 27 oktober 2021
+* 28 oktober 2021
+* 1 november 2021
+* 2 november 2021
 
 Webtoegankelijkheid-test uitgevoerd door: Justin Lung
+
+Volledige rapportage: https://github.com/JustinLung/chippr-beyco-a11ly-audit
 
 ## Inhoudsopgave
 
